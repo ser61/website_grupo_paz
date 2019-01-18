@@ -1577,7 +1577,7 @@ body.pushmenu-push-toLeft{
 }
 
 .half_section_main .half_section_picture{
-    left: 0;
+    left: 0px;
     background: url(../images/half_section_left_bg.png);
     position: absolute;
     z-index: 1;
@@ -1587,6 +1587,7 @@ body.pushmenu-push-toLeft{
     width: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 30%;
 }
 
 .half_section_main .side_section_text{
@@ -3809,4 +3810,17 @@ ul.packages li i{
 
 .sw_networking{
     color: #4e4657;
+}
+
+.companies_frame{
+    padding: 0;
+    border: 1px solid white;
+}
+
+.company-frame{
+    border: .5px solid #2b2334;
+}
+
+.padding-footer{
+    padding: 20px 0;
 }
