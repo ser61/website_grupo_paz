@@ -3817,10 +3817,54 @@ ul.packages li i{
     border: 1px solid white;
 }
 
+.news_frame{
+    padding: 2px;
+}
+
+.news_img:hover {
+    position: absolute;
+    border: 1px solid white;
+    z-index: 10;
+    transform:scale(1.5);
+    -ms-transform:scale(1.5); /* IE 9 */
+    -moz-transform:scale(1.5); /* Firefox */
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -o-transform:scale(1.5); /* Opera */
+}
+
 .company-frame{
     border: .5px solid #2b2334;
 }
 
 .padding-footer{
     padding: 20px 0;
+}
+
+.text-width-50{
+    width: 50%;
+    margin-left: 25%;
+    line-height: 1.5em
+}
+
+.text-width-60{
+    width: 60%;
+    margin-left: 20%;
+    line-height: 1.5em
+}
+
+.text-width-70{
+    width: 70%;
+    margin-left: 15%;
+    line-height: 1.5em
+}
+
+.pd-top-5{
+    padding-top: 5rem
+}
+
+@media( max-width: 600px ) {
+    .text-width-70 {
+        width: 100%;
+        line-height: 1.5em
+    }
 }
